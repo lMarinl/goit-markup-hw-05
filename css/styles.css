@@ -1116,7 +1116,7 @@ fill: var(--cloud);
         align-items: center;
         margin-bottom: 24px;
 }
-. {check-icon{
+.check-icon{
     display: inline-flex;
     align-items: center;
     justify-content: center;
