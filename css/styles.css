@@ -536,23 +536,20 @@ fill: var(--cloud);
         }
     
     .form-footer {
-        
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
         }
     
-    .label-footer{
-        display: flex;
-        gap: 24px;
-    }
-    
+
 .input-footer {
     color: var(--white);
     background-color: transparent;
     font-family: inherit;
     font-size: 12px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     height: 40px;
     width: 264px;
@@ -914,14 +911,13 @@ fill: var(--cloud);
     }
 
     .form-footer-pf {
+        display: flex;
+        gap: 24px;
     align-items: center;
     justify-content: center;
     }
 
-.label-footer-pf {
-    display: flex;
-    gap: 24px;
-    }
+
 
 .input-footer-pf {
     color: var(--white);
@@ -929,7 +925,7 @@ fill: var(--cloud);
     font-family: inherit;
     font-size: 12px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     height: 40px;
     width: 264px;
