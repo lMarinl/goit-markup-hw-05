@@ -611,7 +611,6 @@ fill: var(--cloud);
     display: flex;
     align-items: center;
     flex-grow: 1;
-    justify-content: center;
 }
 
 
@@ -1117,7 +1116,7 @@ fill: var(--cloud);
         align-items: center;
         margin-bottom: 24px;
 }
-.check-text span {
+. {check-icon{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1131,8 +1130,12 @@ fill: var(--cloud);
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.check-input:checked{
+border: none;
+}
 .check-input:checked + .check-text span {
-    border: none;
+    
     border-radius: 2px;
     background-color: var(--ocean);
     fill:var(--cloud);
