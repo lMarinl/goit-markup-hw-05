@@ -556,7 +556,6 @@ fill: var(--cloud);
     letter-spacing: 0.04em;
     height: 40px;
     width: 264px;
-    
     border: 1px solid var(--white);
     border-radius: 4px;
     outline: transparent;
@@ -901,31 +900,31 @@ fill: var(--cloud);
 .footer-socials-icons {
     fill: currentColor;
 }
-.subscrib-pf-footer {
+.subscribe-footer-pf {
     margin: 0;
-}
+    }
 
-.text-pf-footer {
-        color: var(--white);
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            margin-bottom: 16px;
-}
+.text-footer-pf {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    }
 
-.form-footer-pf {
+    .form-footer-pf {
     align-items: center;
     justify-content: center;
-}
+    }
 
-.label-footer-pf{
+.label-footer-pf {
     display: flex;
     gap: 24px;
-}
+    }
 
 .input-footer-pf {
-color: var(--white);
+    color: var(--white);
     background-color: transparent;
     font-family: inherit;
     font-size: 12px;
@@ -939,14 +938,13 @@ color: var(--white);
     outline: transparent;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
+    }
 
-.input-footer::placeholder {
+.input-footer-pf::placeholder {
     color: var(--white);
-}
+    }
 
-
-.btn-footer-pf {
+.btn-input-pf {
     width: 165px;
     min-width: 165px;
     height: 40px;
@@ -964,13 +962,13 @@ color: var(--white);
     background: var(--iris);
     border: none;
     cursor: pointer;
-}
+    }
 
 .icon-btn-pf {
     fill: var(--white);
     display: block;
     margin-left: 16px;
-}
+    }
 
 /*---------------------------------------------------modal-----------------------------------------------*/
 .backdrop{
