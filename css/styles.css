@@ -1132,16 +1132,18 @@ fill: var(--cloud);
 }
 
 .check-input:checked{
-border: none;
+
 }
 .check-input:checked + .check-text span {
     
     border-radius: 2px;
     background-color: var(--ocean);
     fill:var(--cloud);
+    border: none;
 }
 .check-input:focus + .check-text span{
     border: 1px solid var(--ocean);
+    
 }
 
 
