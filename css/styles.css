@@ -1109,7 +1109,6 @@ background-color: var(--ocean);
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        display: flex;
         align-items: center;
         margin-bottom: 24px;
 }
@@ -1131,8 +1130,7 @@ background-color: var(--ocean);
 .check-input:checked + .check-icon{
 border: none;
 }
-.check-input:checked + .check-text span {
-    
+.check-input:checked + .check-text>.check-icon {
     border-radius: 2px;
     background-color: var(--ocean);
     fill:var(--cloud);
